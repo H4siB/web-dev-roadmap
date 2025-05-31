@@ -5,6 +5,29 @@
     padding: 0px;
     max-width: 100%;
 }
+.title{
+    color: rgb(13, 19, 33);
+    width: auto;
+    height: auto;
+    font-family: Azeret Mono;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+}
+.subtitle{
+    width: 606px;
+    height: auto;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 17px;
+}
+
 #hero{
     min-height: 500px;
     background-image: url("assets/Hero-bg.png");
@@ -30,7 +53,7 @@
     min-height: 220px;
     text-align: center;
 }
-#hero .hero-content .title{
+#hero .hero-content .head{
     color: rgb(13, 19, 33);
     font-size: 34px;
     line-height: 48px;
@@ -87,26 +110,6 @@
     align-items: center;
     gap: 17;
 }
-.motive-head .title{
-    color: rgb(13, 19, 33);
-    width: auto;
-    height: auto;
-    font-size: 23px;
-    font-weight: 800;
-    line-height: 26px;
-    text-align: center;
-}
-.motive-head .subtitle{
-    width: 606px;
-    height: auto;
-    color: rgb(13, 19, 33);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18.5px;
-    text-align: center;
-    opacity: 0.7;
-    margin-top: 17px;
-}
 .outerlayer{
     width: 673px;
     height: 239px;
@@ -126,7 +129,7 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-.outerlayer .motive-desc .title{
+.outerlayer .motive-desc .oltitle{
     width: 277.5px;
     color: rgba(13, 19, 33, 0.7);
     font-size: 17px;
@@ -134,7 +137,7 @@
     line-height: 26px;
     text-align: left;
 }
-.outerlayer .motive-desc .subtitle{
+.outerlayer .motive-desc .olsubtitle{
     width: 333px;
     color: rgb(13, 19, 33);
     font-size: 12px;
@@ -146,10 +149,107 @@
     font-size: 14px;
     font-weight: 600;
     width: 122px;
-    height: 33px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 8.5px 14px 8.5px 14px;
     margin-top: 23px;
+}
+
+#inspiration{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inspiration .inspiration-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inspiration .video-container{
+    margin: 34px 0px;
+    padding: 22px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+#inspiration .video-container .video{
+    width: auto;
+    height: auto;
+    border-radius: 11px;
+    overflow: hidden;
+}
+#target{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#target .target-head{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#target .target-code{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+    gap: 17px;
+}
+#target .target-code .html{
+    padding: 28.5px;
+    border-radius: 12px;
+    background: rgba(255, 76, 30, 0.05);
+}
+#target .target-code .css{
+    padding: 28.5px;
+    border-radius: 12px;
+    background: rgba(0, 76, 232, 0.05);
+}
+#target .target-code .js{
+    padding: 28.5px;
+    border-radius: 12px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.minititle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 25.5px;
+    margin: 17px 0px;
+}
+.minisubtitle{
+    width: 202px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.5px;
+    margin: 6px 0px;
+    text-align: left;
+    opacity: 0.7;
+}
+.learnm{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13.5px;
+    margin-top: 17px;
+    text-align: left;
+    text-decoration-line: underline;
 }
