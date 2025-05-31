@@ -6,7 +6,7 @@
     max-width: 100%;
 }
 #hero{
-    height: 500px;
+    min-height: 500px;
     background-image: url("assets/Hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@
 }
 #hero .group{
     width: 171px;
-    height: 170px;
+    min-height: 170px;
 }
 #hero .hero-container{
     display: flex;
@@ -27,7 +27,7 @@
 }
 #hero .hero-content{
     width: 710px;
-    height: 220px;
+    min-height: 220px;
     text-align: center;
 }
 #hero .hero-content .title{
@@ -56,5 +56,100 @@
     font-family: Azeret Mono;
     font-weight: 600;
     font-size: 12px;
+    margin-top: 23px;
+}
+
+#motive{
+    margin:53px auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 57px 70px 57px 70px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    font-family: Azeret Mono;
+}
+#motive .motive-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#motive .motive-container .motive-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17;
+}
+.motive-head .title{
+    color: rgb(13, 19, 33);
+    width: auto;
+    height: auto;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+}
+.motive-head .subtitle{
+    width: 606px;
+    height: auto;
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 17px;
+}
+.outerlayer{
+    width: 673px;
+    height: 239px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 34px;
+    border-radius: 12px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+#oltwo{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.motive-container .outerlayer.motive-desc{ 
+    margin: 0px 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.outerlayer .motive-desc .title{
+    width: 277.5px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+.outerlayer .motive-desc .subtitle{
+    width: 333px;
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.learn{
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 600;
+    width: 122px;
+    height: 33px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 8.5px 14px 8.5px 14px;
     margin-top: 23px;
 }
